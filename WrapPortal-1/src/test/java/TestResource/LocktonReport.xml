@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+	<test name="FunctionalTest" >
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			
+			<!-- Lockton reports -->
+			
+			<!-- Updated testcases -->
+		<!-- <class name="TestScript.Report_ContractorStructureTC" />  
+		     <class name="TestScript.Report_MissingPayrollReportTC" />
+		      <class name="TestScript.Report_ContractorDeductSummaryTC" />
+		      <class name="TestScript.Report_ContractorStatusTC" /> TimeoUt Error for this in beta
+		      <class name="TestScript.Report_EstimatedEndDatesTC" /> TimeoUt Error for this in beta
+		      <class name="TestScript.Report_PayrollToCVPercentageTC" /> TimeoUt Error for this in beta
+		      <class name="TestScript.Report_SuspendedPayrollReportTC" />
+		       <class name="TestScript.Report_TotalMonthlyPayrollTC" />   Response Time Out in beta
+		      <class name="TestScript.Report_ProgramCloseoutSummaryTC" /> not Available
+		      -->
+		
+	    
+		
+		
+		 	
+			
+		 	
+	 	
+		
+		
+		
+		<!-- Passed testcases -->
+			
+		<!-- <class name="TestScript.Report_EnrolledContractorsListTC" />
+		<class name="TestScript.Report_ContractValueLaborHoursbyProgram_TC" />
+		<class name="TestScript.Report_EnrollmentReportTC" />
+	    <class name="TestScript.Report_FinalDeductTC" />
+		<class name="TestScript.Report_InitialDeduct_TC" />	
+		<class name="TestScript.Report_SponsorProjectDetailTC" />
+		 <class name="TestScript.Report_PayrollComparisonTC" />
+		<class name="TestScript.Report_ClaimCodingContractorSummaryReportTC" />
+		<class name="TestScript.Report_ContractorAwardsTC" />	
+		<class name="TestScript.Report_ContractorDeductSummaryTC" />	
+		<class name="TestScript.Report_ContractorStatusTC" />	
+		<class name="TestScript.Report_EstimatedEndDatesTC" />	
+		<class name="TestScript.Report_AgendaTC" />	
+		<class name="TestScript.Report_PayrollToCVPercentageTC" /> 
+			
+	 -->
+			
+			
+			
+			
+			
+
+		
+		
+		
+		
+		
+			
+		
+	<!-- 	WTW reports	 -->
+
+    
+        <!-- Failed   -->
+     
+  <!--    <class name="TestScript.Report_OpenActionItems_TC" />        issue in beta and Live
+	  <class name="TestScript.Report_ProjectSpecificReport_TC" />	Not available
+	  <class name="TestScript.Report_ContractorContactList_TC"/>    performave issue
+	  <class name="TestScript.Report_GL_Credit_Tracking_Test"/>  Not available 
+	   -->
+	  	
+	  	
+	  	
+	  	
+	  	
+	 <!--  	Passed -->
+			<!-- 
+			<class name="TestScript.Report_CarrierPayrolReport_TC" />
+			<class name="TestScript.Report_ContractorInsuranceCostTracking_TC" />
+			<class name="TestScript.Report_NonCompliance_TC" />
+			<class name="TestScript.Report_ProgramWideReportCard_TC" />
+			 <class name="TestScript.Report_PayrollNonCompliacnReport_TC"/>
+			 <class name="TestScript.Report_PayrollSummaryReport_TC"/> 
+			 <class name="TestScript.Report_EnrollmentStatusReport_TC"/>
+			 <class name="TestScript.Report_SuperIntendentReport_TC"/>
+			 <class name="TestScript.Report_ActualPayroll_ReceiptsReport_TC" />
+			<class name="TestScript.Report_ContractStatusReport_TC" />    	          
+		    <class name="TestScript.Report_SubmittedPayroll_TC" />  -->
+		    
+			
+			
+			
+			
+	 		
+		     
+		    
+		    
+		    
+		    
+		    
+	 	    
+		
+			
+			
+			
+			 
+			
+			 
+ 			
+ 			
+ 	
+ 				
+ </classes>
+	
+	
+	
+	
+	
+	<!--
+ 			
+ 		NCP Reports	
+ 
+ 		<class name="TestScript_NCP.Report_NCP_Initial_Deduct_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Final_Deduct_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Missing_Payroll_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Contract_Status_Report_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Project_Specific_Report_Test"/>
+		<class name="TestScript_NCP.Report_NCP_NON_Compliance_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Submitted_Payroll_Test"/> 
+		<class name="TestScript_NCP.Report_NCP_Program_WideCard_Report_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Enrolled_Contractors_List_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Contractor_Structure_By_Program_Test"/>
+	
+	 -->
+	</test>
+	
+</suite>

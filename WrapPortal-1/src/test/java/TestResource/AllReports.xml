@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="FunctionalTest" >
+		<parameter name="browserName" value="chrome" />
+		
+		<classes>
+			
+			<class name="TestScript.Report_AgendaTC" />
+			<class name="TestScript.Report_CarrierEnrollmentOld_TC" />
+			<class name="TestScript.Report_CertificateTrackingReportOld_TC" />
+			<class name="TestScript.Report_ClaimCodingContractorSummaryReportTC" />
+			<class name="TestScript.Report_ClaimsReportOld_TC" />
+			<class name="TestScript.Report_ClaimsSummaryReportOld_TC" />
+			<class name="TestScript.Report_ContractActualPayrollOld_TC" />
+			<class name="TestScript.Report_ContractDetailsListOld_TC" />
+			<class name="TestScript.Report_ContractorActualPayrollOld_TC" />
+			<class name="TestScript.Report_ContractorAwardsTC" />
+			<class name="TestScript.Report_ContractorCloseOutTracking_Old" />
+			<class name="TestScript.Report_ContractorCostSummaryOld_TC" />
+			<class name="TestScript.Report_ContractorDeductSummaryTC" />
+			<class name="TestScript.Report_ContractorDeductTrackingOld_TC" />
+			<class name="TestScript.Report_ContractorDetailsOld_TC" />
+			<class name="TestScript.Report_ContractorEnrollmentDetail_TC" />
+			<!-- <class name="TestScript.Report_ContractorEnrollmentSummary_TC" /> -->
+			<class name="TestScript.Report_ContractorInsuranceCostAnalysisOld_TC" />
+			<class name="TestScript.Report_ContractorInsuranceCostTracking_TC" />
+			<class name="TestScript.Report_ContractorInsuranceCreditReport_TC" />
+			<class name="TestScript.Report_ContractorMonthlyManHours_TC" />
+			<class name="TestScript.Report_ContractorPayrollManHoursAndLaborRateOld_TC" />
+			<class name="TestScript.Report_ContractorProfileOld_TC" />
+			<class name="TestScript.Report_ContractorReportOld_TC" />
+			<class name="TestScript.Report_ContractorRosterReportOld_TC" />
+			<class name="TestScript.Report_ContractorStatusTC" />
+			<class name="TestScript.Report_ContractorStructureTC" />
+			<class name="TestScript.Report_ContractStatusReport_TC" />
+			<class name="TestScript.Report_ContractValueLaborHoursbyProgram_TC" />
+			<class name="TestScript.Report_ContractValueLaborHoursbyProjectTC" />
+			<class name="TestScript.Report_EnrolledContractorsListTC" />
+			<class name="TestScript.Report_EnrollmentDetailReportOld_TC" />
+			<class name="TestScript.Report_EnrollmentListReportOld_TC" />
+			<class name="TestScript.Report_EnrollmentReportTC" />
+			<class name="TestScript.Report_EnrollmentTrackingReportOld_TC" />
+			<class name="TestScript.Report_EstimatedEndDatesTC" />
+			<class name="TestScript.Report_ExpiringCertificateReportOld_TC" />
+			<class name="TestScript.Report_FinalDeductTC" />
+			<class name="TestScript.Report_InitialDeduct_TC" />
+			<class name="TestScript.Report_InsuranceCreditDeductReviewOld_TC" />
+			<class name="TestScript.Report_LaborRateAnalysisOld_TC" />
+			<class name="TestScript.Report_LossControlReportOld_TC" />
+			<class name="TestScript.Report_MasterPoliciesOld_TC" />
+			<class name="TestScript.Report_MissingEnrollmentReportOld_TC" />
+			<class name="TestScript.Report_MissingPayrollbyContractorOld_TC" />
+			<class name="TestScript.Report_MissingPayrollReportTC" />
+			<class name="TestScript.Report_NonCIPStatusReportOld_TC" />
+			<class name="TestScript.Report_NonCompliance_TC" />
+			<class name="TestScript.Report_NoOfAwardsReport_TC" />
+			<class name="TestScript.Report_OCIPMetric_TC" />
+			<class name="TestScript.Report_PayrollAuditSummaryOld_TC" />
+			<class name="TestScript.Report_PayrollByContractOld_TC" />
+			<class name="TestScript.Report_PayrollComparisonTC" />
+			<class name="TestScript.Report_PayrollToCVPercentageTC" />
+			<class name="TestScript.Report_PercentOfPayrollToCV_TC" />
+			<class name="TestScript.Report_ProgramCloseoutSummaryTC" />
+			<class name="TestScript.Report_ProgramDeductionRateAnalysisOld_TC" />
+			<class name="TestScript.Report_ProgramFinancialAnalysisReportOld_TC" />
+			<class name="TestScript.Report_ProgramFinancialAnalysisWorkClassOld_TC" />
+			<class name="TestScript.Report_ProgramWideReportCard_TC" />
+			<class name="TestScript.Report_ProjectCloseOutReportOld_TC" />
+			<class name="TestScript.Report_ProjectDetailsListOld_TC" />
+			<class name="TestScript.Report_ProjectInsuranceCostAnalysisOld_TC" />
+			<class name="TestScript.Report_ProjectSpecificReport_TC" />
+			<class name="TestScript.Report_ProjectSummaryReportOld_TC" />
+			<class name="TestScript.Report_PulteCustomReport_TC" />
+			<class name="TestScript.Report_QuarterlyEnrollmenteportOld_TC" />
+			<class name="TestScript.Report_ReportedPayrollByContractorOld_TC" />
+			<class name="TestScript.Report_SponsorProjectDetailTC" />
+			<class name="TestScript.Report_StatusReportOld_TC" />
+			<class name="TestScript.Report_SubcontractorStatusReportOld_TC" />
+			<class name="TestScript.Report_SubmittedPayroll_TC" />
+			<class name="TestScript.Report_SuspendedPayrollReportTC" />
+			<class name="TestScript.Report_TieredReport_TC" />
+			<class name="TestScript.Report_TotalMonthlyPayrollTC" />
+			<class name="TestScript.Report_UCMCloseoutReport_TC" />
+			<class name="TestScript.Report_WorkClassPayrollHours_TC" />
+			<class name="TestScript.Report_WrapTrackingLogReport_TC" />
+			<class name="TestScript.Report_WrapUpCreditReportOld_TC" />	
+				
+		</classes>
+	
+	</test>
+	
+</suite>

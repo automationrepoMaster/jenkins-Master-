@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="FunctionalTest" >
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			
+			<class name="TestScript.AddUserTC" />
+			<class name="TestScript.AddDivisonTC" />
+			<!-- <class name="TestScript.AddSponsorTC" /> -->
+			<class name="TestScript.AddContractorTC" />
+			<class name="TestScript.AddTradeTC" />
+			<class name="TestScript.AddWorkClassTC" />
+			<class name="TestScript.AddCarrierTC" />
+			<class name="TestScript.AddProgramTestClass" />
+			<class name="TestScript.AddProjectTC" />
+			<class name="TestScript.AddContractor_Pkg_TC" />
+			<class name="TestScript.EnrollContractor_TC" />
+			<class name="TestScript.AddMonthlyPayroll_TC" />
+			<class name="TestScript.Add_Adjustment_TC" />
+						
+		</classes>
+	
+	</test>
+	
+</suite>

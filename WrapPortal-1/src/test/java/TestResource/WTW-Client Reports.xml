@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+  <test name="FunctionalTestProgramModule">
+		
+		<parameter name="browserName" value="chrome" />
+    
+    
+    
+    <classes>
+    
+    <!--   <class name="WTW_Reports.Report_ProjectSpecificReport_TC"/> Not AVailable -->
+    
+    <!--  <class name="WTW_Reports.Report_ActualPayroll_ReceiptsReport_TC"/> -->
+       
+      <!--  <class name="WTW_Reports.Report_GL_Credit_Tracking_Test"/> Not AVailable-->
+      
+      
+    <!-- <class name="WTW_Reports.Report_ContractorInsuranceCostTracking_TC"/>
+      <class name="WTW_Reports.Report_SuperIntendentReport_TC"/>
+     <class name="WTW_Reports.Report_PayrollNonCompliacnReport_TC"/>
+      <class name="WTW_Reports.Report_NonCompliance_TC"/>
+      <class name="WTW_Reports.Report_SubmittedPayroll_TC"/>
+     
+      
+      <class name="WTW_Reports.Report_ProgramWideReportCard_TC"/>
+      <class name="WTW_Reports.Report_PayrollSummaryReport_TC"/>
+    
+      <class name="WTW_Reports.Report_CarrierPayrolReport_TC"/>
+      <class name="WTW_Reports.Report_EnrollmentStatusReport_TC"/>
+      
+     
+      <class name="WTW_Reports.Report_ContractStatusReport_TC"/>
+    
+     
+      <class name="WTW_Reports.Report_ContractorContactList_TC"/>
+     <class name="WTW_Reports.Report_OpenActionItems_TC"/>
+     -->
+        
+       
+    
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

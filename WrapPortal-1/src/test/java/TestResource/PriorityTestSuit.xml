@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="Wrap Portal Modules">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<!-- WP Modules -->
+			<class name="TestScript.WPCreateDBTestCase" />
+			<class name="TestScript.AddContractor_Pkg_Via_ProjectTC" />
+			<class name="TestScript.EnrollContractorWithouExcel_TC" />
+			<class name="TestScript.Verify_ALL_HomeControlMenuIcons" />
+			<class name="TestScript.Verify_All_ToolTips" />
+		</classes>
+	</test>
+
+	<test name="WTW Reports">
+		<parameter name="browserName" value="chrome"/>
+		<classes>
+		
+			<!-- WTW Reports -->
+			
+			<class name="TestScript.Report_ContractorInsuranceCostTracking_TC"/>
+			<class name="TestScript.Report_ContractStatusReport_TC"/>
+			<class name="TestScript.Report_NonCompliance_TC"/>
+			<class name="TestScript.Report_ProgramWideReportCard_TC" />
+			<class name="TestScript.Report_ProjectSpecificReport_TC" />
+			<class name="TestScript.Report_SubmittedPayroll_TC"/>
+			<class name="TestScript.Report_PayrollNonCompliacnReport_TC"/>
+			<class name="TestScript.Report_EnrollmentStatusReport_TC" />
+			<class name="TestScript.Report_PayrollSummaryReport_TC"/>
+			<class name="TestScript.Report_ContractorContactList_TC" />
+			<class name="TestScript.Report_CarrierPayrolReport_TC" />
+			<class name="TestScript.Report_SuperIntendentReport_TC" />
+			<class name="TestScript.Report_ActualPayroll_ReceiptsReport_TC" />
+			<class name="TestScript.Report_OpenActionItems_TC" />
+			
+		</classes>
+	</test>
+
+	<test name="Lockton Reprts">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<!-- Lockton Reports -->
+			<class name="TestScript.Report_ClaimCodingContractorSummaryReportTC" />
+			<class name="TestScript.Report_ContractorAwardsTC" />
+			<class name="TestScript.Report_ContractorDeductSummaryTC" />
+			<class name="TestScript.Report_ContractorStructureTC" />
+			<class name="TestScript.Report_ContractValueLaborHoursbyProgram_TC" />
+			<class name="TestScript.Report_ContractorStatusTC" />
+			<class name="TestScript.Report_EnrolledContractorsListTC" />
+			<class name="TestScript.Report_EnrollmentReportTC" />
+			<class name="TestScript.Report_EstimatedEndDatesTC" />
+			<class name="TestScript.Report_FinalDeductTC" />
+			<class name="TestScript.Report_InitialDeduct_TC" />
+			<class name="TestScript.Report_AgendaTC" />
+			<class name="TestScript.Report_MissingPayrollReportTC" />
+			<class name="TestScript.Report_SponsorProjectDetailTC" />
+			<class name="TestScript.Report_PayrollComparisonTC" />
+			<class name="TestScript.Report_PayrollToCVPercentageTC" />
+			<class name="TestScript.Report_ProgramCloseoutSummaryTC" />
+			<class name="TestScript.Report_SuspendedPayrollReportTC" />
+			<class name="TestScript.Report_TotalMonthlyPayrollTC" />
+
+		</classes>
+	</test>
+
+	<test name="NCP Modules">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+
+			<!-- Ncp Modules -->
+			<class name="TestScript_NCP.LoginNCP" />
+			<class name="TestScript_NCP.EnrollContractorPackageWC_GL_Test" />
+			<class name="TestScript_NCP.Add_ChangeOrder_NCP_Test" />
+			<class name="TestScript_NCP.Add_MonthlyPayroll_NCP_Test" />
+			<class name="TestScript_NCP.Add_Claims_NCP_Test" />
+			<class name="TestScript_NCP.Add_CloseOut_NCP_Test" />
+
+		</classes>
+	</test>
+
+	<test name="NCP Reprts">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<!-- NCP Reports -->
+			<class name="TestScript_NCP.Report_NCP_Initial_Deduct_Test" />
+			<class name="TestScript_NCP.Report_NCP_Final_Deduct_Test" />
+			<class name="TestScript_NCP.Report_NCP_Missing_Payroll_Test" />
+			<class name="TestScript_NCP.Report_NCP_Contract_Status_Report_Test" />
+			<class name="TestScript_NCP.Report_NCP_Project_Specific_Report_Test" />
+			<class name="TestScript_NCP.Report_NCP_NON_Compliance_Test" />
+			<class name="TestScript_NCP.Report_NCP_Submitted_Payroll_Test" />
+			<class name="TestScript_NCP.Report_NCP_Program_WideCard_Report_Test" />
+			<class name="TestScript_NCP.Report_NCP_Enrolled_Contractors_List_Test" />
+			<class
+				name="TestScript_NCP.Report_NCP_Contractor_Structure_By_Program_Test" />
+			<class
+				name="TestScript_NCP.Report_NCP_ContractorIsurance_CostTraking_Test" />
+			<class name="TestScript_NCP.Report_NCP_ContractorDeductTreaking_Test" />
+			<class name="TestScript_NCP.Report_NCP_Enrollment_Tracking_Test" />
+			<class name="TestScript_NCP.Report_NCP_Contractor_Cost_Summary_Test" />
+			<class
+				name="TestScript_NCP.Report_NCP_ContractorPayroll_Man_Hours_Labour_Rate_Test" />
+			<class name="TestScript_NCP.Report_NCP_Enrollment_Summary_Test" />
+			<class name="TestScript_NCP.Report_NCP_Enrollment_Status_Report_Test" />
+			<class name="TestScript_NCP.Report_NCP_Contractor_Status_Test" />
+			<class name="TestScript_NCP.Report_NCP_Missing_PayrollBy_Contractor_Test" />
+			<class name="TestScript_NCP.Report_NCP_Contractor_Profile_Test" />
+		</classes>
+	</test>
+
+	<test name="OLD CP Reprots">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+
+			<!-- OLD CP Reports -->
+			<class name="TestScipts_CPO.Report_CPO_ContractorProfile_TC" />
+			<class name="TestScipts_CPO.Report_CPO_ContractorStatus_TC" />
+			<class name="TestScipts_CPO.Report_CPO_ContractureStructureReport_TC" />
+			<class name="TestScipts_CPO.Report_CPO_ActualPayroll_ReceiptsReport_TC" />
+			<class name="TestScipts_CPO.Report_CPO_EnrolledContractorsList_TC" />
+			<class name="TestScipts_CPO.Report_CPO_EnrollmentSummary_TC" />
+			<class name="TestScipts_CPO.Report_CPO_EnrollmentTrakingReport_TC" />
+			<class name="TestScipts_CPO.Report_CPO_FinalDeduct_TC" />
+			<class name="TestScipts_CPO.Report_CPO_InitialDeduct_TC" />
+			<class name="TestScipts_CPO.Report_CPO_NonComplianceReport_TC" />
+			<class name="TestScipts_CPO.ReportCPO_ContractorDeductTracking_TC" />
+			<class name="TestScipts_CPO.ReportCPO_ContractorInsuranceCostTracking_TC" />
+			<class name="TestScipts_CPO.Report_CPO_MissingPayroll_TC" />
+
+		</classes>
+	</test>
+
+</suite>

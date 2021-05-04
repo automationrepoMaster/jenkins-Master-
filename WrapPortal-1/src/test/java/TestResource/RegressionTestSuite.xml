@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParrentSuite" parallel="false" thread-count="5">
+
+	<parameter name="browserName" value="chrome" />
+	<suite-files>
+
+		<suite-file path="CommonModule.xml"></suite-file>
+		<suite-file path="EnrollContractorPackagesTestSuite.xml"></suite-file>
+ 
+	</suite-files>
+</suite>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="FunctionalTest">
+		<parameter name="browserName" value="chrome" />
+	<classes>
+			<!-- NourUSI -->
+									
+			<class name="TestScript.Report_PayrollAuditSummaryByWorkClassOld_Test" />
+			<class name="TestScript.Report_EnrollmentStatusReportOld_Test" />
+			<class name="TestScript.Report_ContractorDeductTrackingOld_TC" />
+			<class name="TestScript.Report_QuarterlyEnrollmenteportOld_TC" />
+	
+			<class name="TestScript.Report_ContractorCloseOutTracking_Old" />
+						
+			<class name="TestScript.Report_ContractorCostSummaryOld_TC" />
+			<class name="TestScript.Report_ContractorDetailsOld_TC" />
+			<class name="TestScript.Report_LaborRateAnalysisOld_TC" />
+			<class name="TestScript.Report_StatusReportOld_TC" />
+			
+			<class name="TestScript.Report_InsuranceCreditDeductReviewOld_TC" />
+			<class name="TestScript.Report_CertificateTrackingReportOld_TC" />
+			<class name="TestScript.Report_LossControlReportOld_TC" />
+			<class name="TestScript.Report_SubcontractorStatusReportOld_TC" />
+			<class name="TestScript.Report_ContractorReportOld_TC" />
+			
+			<class name="TestScript.Report_WorkClassPayrollHours_TC" /> 
+			<class name="TestScript.Report_MissingPayroll_Old_Test" />
+			<class name="TestScript.Report_ContractorMonthlyManHours_TC" />
+		 	<class name="TestScript.Report_ContractorPayrollManHoursAndLaborRateOld_TC" />
+			
+			<class name="TestScript.Report_ContractorProfileOld_TC" />
+			<class name="TestScript.Reports_ProjectDeductionRateAnalysisOld_Test" /> 
+			<class name="TestScript.Report_ProjectFinancialAnalysisOld_Test" />
+			<class name="TestScript.Report_ProjectFinancialAnalysisWorkClass_Old_Test" />
+			<class name="TestScript.Report_ClaimsReportOld_TC" />
+			
+		</classes>
+	</test>
+</suite>

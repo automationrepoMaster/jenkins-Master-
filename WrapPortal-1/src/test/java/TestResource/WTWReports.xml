@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="FunctionalTest" >
+		<parameter name="browserName" value="chrome" />
+		
+		<classes>
+
+		<!-- 	
+			wtw reports 
+			
+			<class name="TestScript.Report_ContractorInsuranceCostTracking_TC" />
+			<class name="TestScript.Report_ContractStatusReport_TC" />
+			<class name="TestScript.Report_NonCompliance_TC" />
+			<class name="TestScript.Report_ProgramWideReportCard_TC" />
+	 		<class name="TestScript.Report_ProjectSpecificReport_TC" />
+			<class name="TestScript.Report_SubmittedPayroll_TC" />
+			
+			<class name="TestScript.Report_PayrollNonCompliacnReport_TC"/>
+			<class name="TestScript.Report_EnrollmentStatusReport_TC"/>
+			<class name="TestScript.Report_PayrollSummaryReport_TC"/>
+			<class name="TestScript.Report_ContractorContactList_TC"/>
+			<class name="TestScript.Report_CarrierPayrolReport_TC" />
+			<class name="TestScript.Report_SuperIntendentReport_TC"/>
+			<class name="TestScript.Report_ActualPayroll_ReceiptsReport_TC" />
+			<class name="TestScript.Report_OpenActionItems_TC" />
+			
+			modules 
+			<class name="TestScript.AddCarrierTC"/>
+			<class name="TestScript.AddDivisonTC"/>
+			<class name="TestScript.AddProgramTestClass"/>
+			<class name="TestScript.AddProjectTC"/>
+			<class name="TestScript.AddContractor_Pkg_ExcelDataTC"/>
+			<class name="TestScript.AddContractorTC"/>
+			<class name="TestScript.AddSponsorTC"/>
+			<class name="TestScript.AddUserTC"/>
+			<class name="TestScript.AddTradeTC"/>
+			<class name="TestScript.AddWorkClassTC"/>
+			<class name="TestScript.EditUserAddMultipleDBA"/>
+			<class name="TestScript.EditUserAddMultipleLicenseNumberTC"/>
+			<class name="TestScript.Verify_ALL_HomeControlMenuIcons"/>
+			<class name="TestScript.Verify_All_ToolTips"/>
+			
+			<class name="TestScript.Verify_ALL_HomeControlMenuIcons"/>
+			<class name="TestScript.Verify_All_ToolTips"/>
+			
+			<class name="TestScript.EnrollContractorWithouExcel_TC"/>
+			<class name="TestScript.WPCreateDBTestCase"/>
+			<class name="TestScript.CompareInitialDeductAlphAdmin_TestCase"/>
+			<class name="TestScript.CompareFinalDeductAlphAdmin_TestCase"/>
+			<class name="TestScript.AddContractor_Pkg_Via_ProjectTC"/>
+			
+			<class name="TestScript.ContractorPackageSortOrderTC"/>
+			<class name="TestScript.ProjectSortOrder"/>
+			<class name="TestScript.ProgramSortOrder"/>
+			<class name="TestScript.ClassCodeSortOrder"/>
+		
+		
+			<class name="TestScript.WPCreateDBTestCase"/>
+			<class name="TestScript.AddContractor_Pkg_Via_ProjectTC"/>
+		 	<class name="TestScript.EnrollContractorWithouExcel_TC"/>
+ 			<class name="TestScript.Verify_ALL_HomeControlMenuIcons"/>
+			<class name="TestScript.Verify_All_ToolTips"/>
+		
+		All NCP test cases 
+		
+		<class name="TestScript_NCP.LoginNCP"/>				
+		<class name="TestScript_NCP.EnrollContractorPackageWC_GL_Test"/>
+		<class name="TestScript_NCP.Add_ChangeOrder_NCP_Test"/>
+		<class name="TestScript_NCP.Add_MonthlyPayroll_NCP_Test"/>
+		<class name="TestScript_NCP.Add_Claims_NCP_Test"/>
+		<class name="TestScript_NCP.Add_CloseOut_NCP_Test"/>
+		
+		<class name="TestScript_NCP.Report_NCP_Initial_Deduct_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Final_Deduct_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Missing_Payroll_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Contract_Status_Report_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Project_Specific_Report_Test"/>
+		<class name="TestScript_NCP.Report_NCP_NON_Compliance_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Submitted_Payroll_Test"/> 
+		<class name="TestScript_NCP.Report_NCP_Program_WideCard_Report_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Enrolled_Contractors_List_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Contractor_Structure_By_Program_Test"/>
+		
+		<class name="TestScript_NCP.Report_NCP_ContractorIsurance_CostTraking_Test"/>	
+		<class name="TestScript_NCP.Report_NCP_ContractorDeductTreaking_Test"/>		
+		<class name="TestScript_NCP.Report_NCP_Enrollment_Tracking_Test"/>		
+		<class name="TestScript_NCP.Report_NCP_Contractor_Cost_Summary_Test"/>	
+ 		<class name="TestScript_NCP.Report_NCP_ContractorPayroll_Man_Hours_Labour_Rate_Test"/>	
+		<class name="TestScript_NCP.Report_NCP_Enrollment_Summary_Test"/>		
+		<class name="TestScript_NCP.Report_NCP_Enrollment_Status_Report_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Contractor_Status_Test"/> 
+		<class name="TestScript_NCP.Report_NCP_Missing_PayrollBy_Contractor_Test"/>
+		<class name="TestScript_NCP.Report_NCP_Contractor_Profile_Test"/>
+		
+		<class name="TestScript.Report_ClaimCodingContractorSummaryReportTC" />
+		<class name="TestScript.Report_ContractorAwardsTC" />
+			
+		<class name="TestScript.Report_ContractorDeductSummaryTC" />
+		<class name="TestScript.Report_ContractorStructureTC" />
+		<class name="TestScript.Report_ContractValueLaborHoursbyProgram_TC" />
+			
+		<class name="TestScript.Report_ContractorStatusTC" />
+		<class name="TestScript.Report_EnrolledContractorsListTC" />
+		<class name="TestScript.Report_EnrollmentReportTC" />
+			
+		<class name="TestScript.Report_EstimatedEndDatesTC" />
+		
+		old cp reports
+		
+			
+		<class name="TestScipts_CPO.Report_CPO_ContractorProfile_TC"/>
+		<class name="TestScipts_CPO.Report_CPO_ContractorStatus_TC"/>	
+		<class name="TestScipts_CPO.Report_CPO_ContractureStructureReport_TC"/>
+		<class name="TestScipts_CPO.Report_CPO_ActualPayroll_ReceiptsReport_TC"/>
+		<class name="TestScipts_CPO.Report_CPO_EnrolledContractorsList_TC"/>		
+		<class name="TestScipts_CPO.Report_CPO_EnrollmentSummary_TC"/>
+		<class name="TestScipts_CPO.Report_CPO_EnrollmentTrakingReport_TC"/>		
+		<class name="TestScipts_CPO.Report_CPO_FinalDeduct_TC"/>
+		<class name="TestScipts_CPO.Report_CPO_InitialDeduct_TC"/>		
+		<class name="TestScipts_CPO.Report_CPO_NonComplianceReport_TC"/>	
+		<class name="TestScipts_CPO.ReportCPO_ContractorDeductTracking_TC"/>		
+		<class name="TestScipts_CPO.ReportCPO_ContractorInsuranceCostTracking_TC"/>
+		<class name="TestScipts_CPO.Report_CPO_MissingPayroll_TC"/>
+		
+				
+		<class name="TestScript.AddContractor_Pkg_Via_ProjectTC"/>
+		<class name="TestScript.WPCreateDBTestCase"/>
+		<class name="TestScript.EnrollContractorWithouExcel_TC"/>
+ 		<class name="TestScript.Verify_ALL_HomeControlMenuIcons"/>
+		<class name="TestScript.Verify_All_ToolTips"/>
+		<class name="TestScript.ProgramAdvancedFilter_Test"/>
+
+		<class name="TestScript.AddContractor_Pkg_Via_ProjectTC"/>
+		<class name="TestScript.WPCreateDBTestCase"/>
+		<class name="TestScript.EnrollContractorWithouExcel_TC"/>
+ 		<class name="TestScript.Verify_ALL_HomeControlMenuIcons"/>
+		<class name="TestScript.Verify_All_ToolTips"/>
+	
+		<class name="TestScript.ProgramAdvancedFilter_Test"/>
+ 		<class name="TestScript.EditProgram_PolicyRenewal_Test"/>	
+ 		<class name="TestScript.AddProgramTestClass"/>
+ 		<class name="TestScript.PreviewPanel_Program_Navi_Link_Test"/>
+ 		<class name="TestScript.Add_Required_Document_Test"/>
+ 		<class name="TestScript.PreviewPanel_Project_Navi_Link_Test" />
+ 		<class name="TestScript.ProjectToolTip_Test"/>
+ 		<class name="TestScript.AddProjectTC"/>
+		<class name="TestScript.ProjectAdvancedFilter_Test"/>
+ -->
+ 		
+		<!-- <class name="TestScript.AddContractor_Pkg_Via_ProjectTC"/>
+		<class name="TestScript.WPCreateDBTestCase"/>
+		<class name="TestScript.EnrollContractorWithouExcel_TC"/>
+ 		<class name="TestScript.Verify_ALL_HomeControlMenuIcons"/>
+		<class name="TestScript.Verify_All_ToolTips"/>
+		<class name="TestScript.ProgramAdvancedFilter_Test"/>
+
+		<class name="TestScript.AddContractor_Pkg_Via_ProjectTC"/>
+		<class name="TestScript.WPCreateDBTestCase"/>
+		<class name="TestScript.EnrollContractorWithouExcel_TC"/>
+ 		<class name="TestScript.Verify_ALL_HomeControlMenuIcons"/>
+		<class name="TestScript.Verify_All_ToolTips"/>
+	
+		<class name="TestScript.ProgramAdvancedFilter_Test"/>
+ 		<class name="TestScript.EditProgram_PolicyRenewal_Test"/>	
+ 		<class name="TestScript.AddProgramTestClass"/>
+ 		<class name="TestScript.PreviewPanel_Program_Navi_Link_Test"/>
+ 		<class name="TestScript.Add_Required_Document_Test"/>
+ 		<class name="TestScript.PreviewPanel_Project_Navi_Link_Test" />
+ 		<class name="TestScript.ProjectToolTip_Test"/>
+ 		<class name="TestScript.AddProjectTC"/>
+		<class name="TestScript.ProjectAdvancedFilter_Test"/> 
+				
+		<class name="TestScript.EnrollContractorWithouExcel_TC"/>
+ 		<class name="TestScript.Enroll_CP_WC_Only"/>				
+ 		<class name="TestScript.Enroll_CP_GL_Only"/> 
+ 		<class name="TestScript.Enroll_CP_Excluded"/>
+ 		
+		-->
+		
+<!-- 		
+		<class name="TestScript.EnrollContractorWithouExcel_TC"/>
+ 		<class name="TestScript.Enroll_CP_WC_Only"/>				
+ 		<class name="TestScript.Enroll_CP_GL_Only"/> 
+  		<class name="TestScript.Enroll_CP_Excluded"/> 
+ 		<class name="TestScript.Cancelled_Contractor_Pkg"/>
+ 		<class name="TestScript.Verify_CP_WC_To_GL_To_WC_Enrollment_Test"/>
+		<class name="TestScript.Verify_WC_And_GL_To_WC_TO_GL_Enrollment"/>
+ 		<class name="TestScript.PreviewPanel_ContractorPkg_Navi_Link_Test"/>
+ 		<class name="TestScript.AddMonthlyPayroll_TC"/>
+ 		
+ --> 
+ 		
+ 		
+ 		<!-- <class name="TestScript.WPCreateDBTestCase"/> -->
+ 		<!-- <class name="TestScript.Verify_ALL_HomeControlMenuIcons"/>
+		<class name="TestScript.Verify_All_ToolTips"/>
+		<class name="TestScript.ProjectToolTip_Test"/>
+		
+		<class name="TestScript.AddProjectTC"/>
+		<class name="TestScript.ProjectAdvancedFilter_Test"/> 
+		<class name="TestScript.PreviewPanel_Project_Navi_Link_Test" />
+		
+		<class name="TestScript.AddProgramTestClass"/>
+		<class name="TestScript.ProgramAdvancedFilter_Test"/>
+ 		<class name="TestScript.EditProgram_PolicyRenewal_Test"/>	
+ 		<class name="TestScript.PreviewPanel_Program_Navi_Link_Test"/>
+				
+		<class name="TestScript.EnrollContractorWithouExcel_TC"/>
+ 		<class name="TestScript.Enroll_CP_WC_Only"/>				
+ 		<class name="TestScript.Enroll_CP_GL_Only"/> 
+ 		<class name="TestScript.Enroll_CP_Excluded"/>
+ 		<class name="TestScript.Cancelled_Contractor_Pkg"/>
+ 		<class name="TestScript.Verify_CP_WC_To_GL_To_WC_Enrollment_Test"/>
+		<class name="TestScript.Verify_WC_And_GL_To_WC_TO_GL_Enrollment"/>
+ 		<class name="TestScript.PreviewPanel_ContractorPkg_Navi_Link_Test"/> 
+		<class name="TestScript.Add_Required_Document_Test"/> -->
+		
+	<!-- <class name="TestScript.Report_SubmittedPayroll_TC" />
+	<class name="TestScript.Report_PayrollNonCompliacnReport_TC" />
+	<class name="TestScript.Report_EnrollmentStatusReport_TC" />
+	<class name="TestScript.Report_PayrollSummaryReport_TC" />
+	<class name="TestScript.Report_ContractorContactList_TC" />
+	<class name="TestScript.Report_CarrierPayrolReport_TC" />
+	<class name="TestScript.Report_SuperIntendentReport_TC" /> -->
+ 		
+ 	<!-- 	<class name="TestScript.WPCreateDBTestCase"/>  -->
+ 		
+ 	<!-- <class name="TestScript.Report_GL_Credit_Tracking_Test"/> -->
+ 	
+	<!--  	<class name="TestScript.Cancelled_Contractor_Pkg"/> -->
+ 	<!-- 	<class name="TestScript.Verify_CP_WC_To_GL_To_WC_Enrollment_Test"/> -->
+	
+	<!-- <class name="TestScript.AddContractorPkgQuarterlyPayroll"/> -->
+	<!-- <class name="TestScript.EnrollContractorWithouExcel_TC"/> -->
+	<!-- <class name="TestScript.WPCreateDBTestCase"/>  -->
+	
+	<!-- old Report Update  -->	
+		
+<!-- 	<class name="TestScript.Report_ContractorDeductTrackingOld_TC"/>  -->
+<!-- <class name="TestScript.Report_PayrollAuditSummaryOld_TC" /> 
+
+		<class name="TestScript.Report_ContractorDeductTrackingOld_TC"/>
+		<class name="TestScript.Report_ExpiringCertificateReportOld_TC"/>
+-->
+	<!-- <class name="TestScript.Report_PayrollAuditSummaryOld_TC"/>  
+	<class name="TestScript.Report_EnrollmentDetailReportOld_TC"/> 
+	<class name="TestScript.Report_EnrollmentListReportOld_TC"/> 
+	<class name="TestScript.Report_ContractorDeductTrackingOld_TC"/> 	
+	<class name="TestScript.Report_ExpiringCertificateReportOld_TC"/> 
+	<class name="TestScript.Report_ReportedPayrollByContractorOld_TC"/> 
+	<class name="TestScript.Report_QuarterlyEnrollmenteportOld_TC"/> 
+	<class name="TestScript.Report_StatusReportOld_TC"/>  
+	<class name="TestScript.Report_CertificateTrackingReportOld_TC"/> 
+	<class name="TestScript.Report_ContractorCloseOutTracking_Old"/> 
+	<class name="TestScript.Report_ContractorDetailsOld_TC"/>  
+	<class name="TestScript.Report_LaborRateAnalysisOld_TC"/> 
+	<class name="TestScript.Report_ContractorProfileOld_TC"/> 
+	<class name="TestScript.Report_ContractorCostSummaryOld_TC"/> 
+	<class name="TestScript.Report_ClaimsReportOld_TC"/> 
+	<class name="TestScript.Report_ContractorReportOld_TC"/>  
+	
+	<class name="TestScript.Report_ContractorPayrollManHoursAndLaborRateOld_TC"/> 
+	<class name="TestScript.Report_ContractorRosterReportOld_TC"/>
+	<class name="TestScript.Report_MissingEnrollmentReportOld_TC"/> 
+	<class name="TestScript.Report_ProgramDeductionRateAnalysisOld_TC"/> 
+	<class name="TestScript.Report_ProgramFinancialAnalysisReportOld_TC"/> 
+	<class name="TestScript.Report_ProgramFinancialAnalysisWorkClassOld_TC"/> 
+	<class name="TestScript.Report_ProjectSummaryReportOld_TC"/> 
+	<class name="TestScript.Report_WrapUpCreditReportOld_TC"/> 
+	<class name="TestScript.Report_LossControlReportOld_TC"/> 
+	<class name="TestScript.Report_SubcontractorStatusReportOld_TC"/> 
+	<class name="TestScript.Report_PercentOfPayrollToCV_TC"/> 
+	<class name="TestScript.Report_ContractorInsuranceCostAnalysisOld_TC"/> 
+	<class name="TestScript.Report_OCIPMetric_TC"/> 
+	<class name="TestScript.Report_ProjectCloseOutReportOld_TC"/> 
+	<class name="TestScript.Report_ProjectInsuranceCostAnalysisOld_TC"/> 
+	<class name="TestScript.Report_ClaimsSummaryReportOld_TC"/> 
+	<class name="TestScript.Report_NonCIPStatusReportOld_TC"/> 
+	 
+	  -->
+	 
+	<!--   	<class name="TestScript.Report_WorkClassPayrollHours_TC"/>
+	  	<class name="TestScript.Report_PulteCustomReport_TC"/>  -->
+	  	
+	 <!--  <class name="TestScript.Report_ContractorReportOld_TC"/> 	
+ -->	  
+	  	<class name="TestScript.WPCreateDBTestCase"/> 
+	
+	 	</classes>
+	
+	</test>
+	
+</suite>

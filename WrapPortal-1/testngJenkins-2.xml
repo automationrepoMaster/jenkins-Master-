@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Wrap Portal">
+	<parameter name="browserName" value="chrome" />
+		<classes>
+      <class name="TestScript.AddUserTC"/>
+      <class name="TestScript.AddCarrierTC"/>
+      <class name="TestScript.AddTradeTC"/>
+      <class name="TestScript.AddWorkClassTC"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

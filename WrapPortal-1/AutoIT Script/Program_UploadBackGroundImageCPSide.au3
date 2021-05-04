@@ -1,0 +1,5 @@
+WinWaitActive("Open","",10)
+ControlFocus("Open","","Edit1")
+Sleep(2000)
+ControlSetText("Open","","Edit1","C:\Users\NTC_Brijesh\Pictures\Nourtek_021_Company Wallpaper_V1_1920x1080_A.png")
+ControlClick("Open","","Button1")

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true" thread-count="5">
+
+	<test name="ChromeTest">
+		<parameter name="browserName" value="ie" />
+		<classes>
+			<class name="TestScript.Report_PayrollNonCompliacnReport_TC"/>
+		</classes>
+	</test>
+
+	<test name="FirefoxTest">
+		<parameter name="browserName" value="firefox" />
+		<classes>
+		<class name="TestScript.Report_PayrollNonCompliacnReport_TC"/>
+		</classes>
+	</test>
+
+	<test name="IETest">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+		<class name="TestScript.Report_PayrollNonCompliacnReport_TC"/>
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='\Wrap Portal-2\Screenshot\AddTaskmodule-04_05_2021_09_49_36.png'><img src='\Wrap Portal-2\Screenshot\AddTaskmodule-04_05_2021_09_49_36.png' height='100' width='100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-04T21:45:31 IST" name="Suite" finished-at="2021-05-04T21:49:42 IST" duration-ms="251292">
+    <groups>
+    </groups>
+    <test started-at="2021-05-04T21:45:31 IST" name="Wrap Portal" finished-at="2021-05-04T21:49:42 IST" duration-ms="251292">
+      <class name="TestScript.AddDivisonTC">
+        <test-method is-config="true" signature="reportGenerate()[pri:0, instance:TestScript.AddDivisonTC@70e9c95d]" started-at="2021-05-04T21:45:30 IST" name="reportGenerate" finished-at="2021-05-04T21:45:31 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportGenerate -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestScript.AddDivisonTC@70e9c95d]" started-at="2021-05-04T21:45:31 IST" name="launchBrowser" finished-at="2021-05-04T21:45:44 IST" duration-ms="13246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication(java.lang.reflect.Method)[pri:0, instance:TestScript.AddDivisonTC@70e9c95d]" started-at="2021-05-04T21:45:44 IST" name="loginToApplication" finished-at="2021-05-04T21:45:44 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestScript.AddDivisonTC.addDivisionTestScript() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="addDivisionTestScript()[pri:0, instance:TestScript.AddDivisonTC@70e9c95d]" started-at="2021-05-04T21:45:44 IST" name="addDivisionTestScript" finished-at="2021-05-04T21:46:23 IST" duration-ms="39213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDivisionTestScript -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestScript.AddDivisonTC@70e9c95d]" started-at="2021-05-04T21:46:23 IST" name="logoutFromApplication" finished-at="2021-05-04T21:46:23 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addDivisionTestScript status=SUCCESS method=AddDivisonTC.addDivisionTestScript()[pri:0, instance:TestScript.AddDivisonTC@70e9c95d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestScript.AddDivisonTC@70e9c95d]" started-at="2021-05-04T21:46:23 IST" name="closeBrowser" finished-at="2021-05-04T21:46:29 IST" duration-ms="5537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="reportEnd()[pri:0, instance:TestScript.AddDivisonTC@70e9c95d]" started-at="2021-05-04T21:49:42 IST" name="reportEnd" finished-at="2021-05-04T21:49:43 IST" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportEnd -->
+      </class> <!-- TestScript.AddDivisonTC -->
+      <class name="TestScript.AddTaskTC">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestScript.AddTaskTC@f09733f]" started-at="2021-05-04T21:48:32 IST" name="launchBrowser" finished-at="2021-05-04T21:48:44 IST" duration-ms="12226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication(java.lang.reflect.Method)[pri:0, instance:TestScript.AddTaskTC@f09733f]" started-at="2021-05-04T21:48:44 IST" name="loginToApplication" finished-at="2021-05-04T21:48:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestScript.AddTaskTC.Add_Task() throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="Add_Task()[pri:0, instance:TestScript.AddTaskTC@f09733f]" started-at="2021-05-04T21:48:44 IST" name="Add_Task" finished-at="2021-05-04T21:49:37 IST" duration-ms="52772" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='\Wrap Portal-2\Screenshot\AddTaskmodule-04_05_2021_09_49_36.png'><img src='\Wrap Portal-2\Screenshot\AddTaskmodule-04_05_2021_09_49_36.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Add_Task -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestScript.AddTaskTC@f09733f]" started-at="2021-05-04T21:49:37 IST" name="logoutFromApplication" finished-at="2021-05-04T21:49:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Add_Task status=SUCCESS method=AddTaskTC.Add_Task()[pri:0, instance:TestScript.AddTaskTC@f09733f] output=<a href='\Wrap Portal-2\Screenshot\AddTaskmodule-04_05_2021_09_49_36.png'><img src='\Wrap Portal-2\Screenshot\AddTaskmodule-04_05_2021_09_49_36.png' height='100' width='100'/></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestScript.AddTaskTC@f09733f]" started-at="2021-05-04T21:49:37 IST" name="closeBrowser" finished-at="2021-05-04T21:49:42 IST" duration-ms="5012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestScript.AddTaskTC -->
+      <class name="TestScript.AddSponsorTC">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestScript.AddSponsorTC@791f145a]" started-at="2021-05-04T21:46:29 IST" name="launchBrowser" finished-at="2021-05-04T21:46:41 IST" duration-ms="12424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication(java.lang.reflect.Method)[pri:0, instance:TestScript.AddSponsorTC@791f145a]" started-at="2021-05-04T21:46:41 IST" name="loginToApplication" finished-at="2021-05-04T21:46:41 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestScript.AddSponsorTC.addSponsors() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="addSponsors()[pri:0, instance:TestScript.AddSponsorTC@791f145a]" started-at="2021-05-04T21:46:41 IST" name="addSponsors" finished-at="2021-05-04T21:47:26 IST" duration-ms="44590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSponsors -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestScript.AddSponsorTC@791f145a]" started-at="2021-05-04T21:47:26 IST" name="logoutFromApplication" finished-at="2021-05-04T21:47:26 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addSponsors status=SUCCESS method=AddSponsorTC.addSponsors()[pri:0, instance:TestScript.AddSponsorTC@791f145a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestScript.AddSponsorTC@791f145a]" started-at="2021-05-04T21:47:26 IST" name="closeBrowser" finished-at="2021-05-04T21:47:37 IST" duration-ms="10962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestScript.AddSponsorTC -->
+      <class name="TestScript.AddContractorTC">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestScript.AddContractorTC@38cee291]" started-at="2021-05-04T21:47:37 IST" name="launchBrowser" finished-at="2021-05-04T21:47:50 IST" duration-ms="12991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication(java.lang.reflect.Method)[pri:0, instance:TestScript.AddContractorTC@38cee291]" started-at="2021-05-04T21:47:50 IST" name="loginToApplication" finished-at="2021-05-04T21:47:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestScript.AddContractorTC.addContractorTestScript() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="addContractorTestScript()[pri:0, instance:TestScript.AddContractorTC@38cee291]" started-at="2021-05-04T21:47:50 IST" name="addContractorTestScript" finished-at="2021-05-04T21:48:26 IST" duration-ms="36343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContractorTestScript -->
+        <test-method is-config="true" signature="logoutFromApplication(org.testng.ITestResult)[pri:0, instance:TestScript.AddContractorTC@38cee291]" started-at="2021-05-04T21:48:26 IST" name="logoutFromApplication" finished-at="2021-05-04T21:48:26 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addContractorTestScript status=SUCCESS method=AddContractorTC.addContractorTestScript()[pri:0, instance:TestScript.AddContractorTC@38cee291] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestScript.AddContractorTC@38cee291]" started-at="2021-05-04T21:48:26 IST" name="closeBrowser" finished-at="2021-05-04T21:48:32 IST" duration-ms="5808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestScript.AddContractorTC -->
+    </test> <!-- Wrap Portal -->
+  </suite> <!-- Suite -->
+</testng-results>

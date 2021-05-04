@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="FunctionalTestProgramModule">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+		
+			<class name="TestScript.AddProgramTestClass" />
+			<class name="TestScript.EditProgram_PolicyRenewal_Test" /> 
+			 <class name="TestScript.ProgramAdvancedFilter_Test" />    
+			<class name="TestScript.EditProgram_PolicyRenewal_Test" />   
+			<class name="TestScript.PreviewPanel_Program_Navi_Link_Test" />  
+			<class name="TestScript.Verify_All_ToolTips" />
+			
+				
+			  
+			  
+			  
+			  <class name="TestScript.AddProjectTC" />
+			 <class name="TestScript.ProjectAdvancedFilter_Test" /> 
+			<class name="TestScript.PreviewPanel_Project_Navi_Link_Test" />
+			<class name="TestScript.ProjectToolTip_Test"/>  
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			 	 		
+			
+		</classes>
+	</test>
+
+</suite>

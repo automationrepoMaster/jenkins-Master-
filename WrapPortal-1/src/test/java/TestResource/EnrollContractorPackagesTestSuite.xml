@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="FunctionalTest">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+		
+		 
+			
+		 <!-- <class name="TestScript.AddContractor_Pkg_Via_ProjectTC"/>  
+		<class name="TestScript.Add_Required_Document_Test"/>  
+		 	
+		<class name="TestScript.PreviewPanel_ContractorPkg_Navi_Link_Test"/>
+		<class name="TestScript.Generate_COI_Test"/> 
+		<class name="TestScript.Enroll_CP_GL_Only"/>  
+ 		<class name="TestScript.Enroll_CP_Excluded"/> -->
+ 		
+ 		
+		<class name="TestScript.Enroll_CP_WC_Only"/>
+		<class name="TestScript.Cancelled_Contractor_Pkg"/>
+		   			
+ 		 
+ 		
+		
+		
+		
+		
+		<!-- <class name="TestScript.Verify_WC_And_GL_To_WC_TO_GL_Enrollment"/> -->
+	 <!--    <class name = "TestScript.Verify_CP_WC_To_GL_To_WC_Enrollment_Test"/> -->
+		<!-- <class name="TestScript.Verify_CP_WC_To_GL_To_WC_Enrollment_Test2"/> -->
+		
+		
+		
+	
+	
+	
+	
+		
+ 		
+		</classes>
+	</test>
+
+</suite>

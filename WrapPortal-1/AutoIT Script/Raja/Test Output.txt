@@ -1,0 +1,446 @@
+[RemoteTestNG] detected TestNG version 7.0.0
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 10875
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 11, 2020 1:47:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+username is : nourTest
+password is :NOUR5uccess#1
+Login button is clicked
+Contractor Packages - Wrap-Portalit is the title of the  page
+scrolled to the top
+scrolled to the top and clicked on Plus button
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-56BAEE4B3394C3E7170599C808A1133F]
+Successfully entered value
+1
+Hercules PG
+Successfully entered value
+1
+Hercules PJ
+Successfully entered value
+1
+WC & GL Enrollment
+Select value from the DropDown
+Select value from the DropDown
+Successfully entered value
+1
+2085 | TradeDynamic-
+close button is clicked succesfully
+[CDwindow-1C769852AEA823040A887218F94247E4]
+Roger Federer
+Hercules PJ
+WC & GL Enrollment
+Assigned
+Hercules PG
+2085 | TradeDynamic-it is the text when dynamic contractorpkg  status  after creating contractor package Roger Federer
+Hercules PJ
+WC & GL Enrollment
+Assigned
+Hercules PG
+2085 | TradeDynamic-
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-CEFCF0A1C78BCE173C321D880E70861A]
+swictehd to window 1
+Not Enrolled | Assigned
+Contractor
+Roger Federer | Hercules Contac
+Program
+Hercules PG
+Project
+Hercules PJ
+Enrollment Type
+WC & GL Enrollment
+Trade
+2085 | TradeDynamic-AssignedStatus text
+[CDwindow-1C769852AEA823040A887218F94247E4]
+switched to parent tab to get the text
+Dynamic Contractor package is clicked at Contractor packages list
+refresh button is clicked succesfully
+Roger Federer
+Hercules PJ
+WC & GL Enrollment
+Assigned
+Hercules PG
+2085 | TradeDynamic-
+status after creating a contractor package and the status is========= Assigned
+It is the method for validating Assigned status
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-9598CC2CB5F85E8E083AC2DA56223F1F]
+swictehd to window 1
+next button at CIP Agreement is clicked successfully
+Enrollment Form - Wrap-Portal
+Alert is not presnet but element is available to inspect and click
+cancel button for the alert is clicked succesfully
+Scroled to Contact Information 
+--Select Work Class--
+001 - Demo (CT)
+0789 - work for Emenities (IN)
+10001 - ceilings (IN)
+1014 - This is for testing purpose only class code (TX)
+1024 - GAP 127 (CO)
+1060 - Tree Prune Spray Etc
+11025 - Demo 11025 (IN)
+11951 - Class Codes3687 (SC) (Capped/Limited Payroll)
+12 - policy
+123 - Conditional Enrollment
+1234 - Class Code Description
+1234 - Class Code Description
+desired is selected and validated
+Work class update button is cicked syccesfully
+InsuranceEnrollment save and close button  is clicked 
+Alert is not presnet but element is available to inspect and click
+Alert is not presnet but element is available to inspect and click
+Alert is not presnet but element is available to inspect and click
+no alert is presne to click 
+[CDwindow-1C769852AEA823040A887218F94247E4]
+Dynamic contractor package after refresh is selcted to cancel the contractor pkg after editing it
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-7A8B7E0FFA2C12271D64331EFEC520A9]
+again Swicthed to Insurance Enrollment 
+Not Enrolled | Incomplete Paperwork
+Contractor
+Roger Federer | Hercules Contac
+Contractor Value
+$100,000.00
+Program
+Hercules PG
+Project
+Hercules PJ
+Enrollment Type
+WC & GL Enrollment
+Trade
+2085 | TradeDynamic-::: Incomplete paper work
+[CDwindow-1C769852AEA823040A887218F94247E4]
+Dynamic contractor package is selected to get the status at Incomplete status paper work
+Roger Federer
+Hercules PJ
+WC & GL Enrollment
+Incomplete Paperwork
+Hercules PG
+2085 | TradeDynamic-it is the contractor package  text at save and cotinur button
+It is the First Status after creating a contractor package and the status is Incomplete Paperwork
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-840C4C6529585546861A510E031BE791]
+swictehd to window 1 after Insurance paeg enrollment link to get missing payroll
+next button at CIP Agreement is not available to click
+Enrollment Form - Wrap-Portal
+cancel button is not available to click
+Alert is not presnet but element is available to inspect and click
+Alert is not presnet but element is available to inspect and click
+ele is not displayed as the alert is an normal  present
+ele is not displayed as the alert is an normal  present
+Non-CIP Compliance - Wrap-Portal::it is the title at Non CIP
+Carrier Name-1234is enetered at Noncip Compliance company name
+Non cip policy start date is selected succesfully
+Non cip policy Expiry start  date is selected succesfully
+save and continue button at Non CiP Compliance page is clikced succesfully
+WC Premiums Modification - Wrap-Portal :It is the title at Wc and premium Modification page
+save and continue button at Wc Premium Modifications  page is clikced succesfully
+General Liability Umbrella - Wrap-Portal==== It is the tilte of the page at GL and Umbrella page
+GL search box is clicked succesfully
+1
+1234 | Class Code Description
+class code description is selcted as 1234 | Class Code Descriptionat General liabilty dropdown
+Umbrealla  search box is clicked succesfully
+1
+1234 | Class Code Description
+class code description is selcted as 1234 | Class Code Descriptionat Umbrella liabilty dropdown
+GL search box is clicked succesfully
+1
+1234 | Class Code Description
+class code description is selcted as 1234 | Class Code Descriptionat Pollution charge  liabilty dropdown
+Sub Contractor Info - Wrap-Portalit is the title at Subcontractor page
+Enrolled
+Contractor
+Roger Federer | Hercules Contac
+Contractor Value
+$100,000.00
+Program
+Hercules PG
+Project
+Hercules PJ
+Enrollment Type
+WC & GL Enrollment
+Trade
+2085 | TradeDynamic-
+Missing Payroll::: Enrolled and Missing payroll
+close button at Sub contractor page is selcted succesfully
+[CDwindow-1C769852AEA823040A887218F94247E4]
+Contractor Packages - Wrap-Portal
+The status at Missing payroll status check is  Missing Payroll
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-679D324331014F2D70757F1E7AD64C2D]
+Add Payroll - Wrap-PortalIt is the tile at Add payroll page
+Option selected by VisibleText
+january 2020 is selected from the drop down succesfully
+class code hours are entered at payroll page
+I agree that the Payroll I am submitting is for Roger Federer with the FEIN Hercules-FE-1.
+mark as confirmed button is cliked succesfully at payroll page for Jan-2020
+continue for next month button is clicked succesfully
+class code hours are entered at payroll page
+I agree that the Payroll I am submitting is for Roger Federer with the FEIN Hercules-FE-1.
+mark as confirmed button is cliked succesfully at payroll page for Feb-2020
+continue for next month button is clicked succesfully for Feb-2020
+class code hours are entered at payroll page
+I agree that the Payroll I am submitting is for Roger Federer with the FEIN Hercules-FE-1.
+mark as confirmed button is cliked succesfully at payroll page for Mar-2020
+continue for next month button is clicked succesfully for Mar-2020
+class code hours are entered at payroll page
+I agree that the Payroll I am submitting is for Roger Federer with the FEIN Hercules-FE-1.
+mark as confirmed button is cliked succesfully at payroll page for Apr-2020
+continue for next month button is clicked succesfully for Apr-2020
+class code hours are entered at payroll page
+I agree that the Payroll I am submitting is for Roger Federer with the FEIN Hercules-FE-1.
+mark as confirmed button is cliked succesfully at payroll page for may-2020
+continue for next month button is clicked succesfully for May-2020
+class code hours are entered at payroll page
+I agree that the Payroll I am submitting is for Roger Federer with the FEIN Hercules-FE-1.
+mark as confirmed button is cliked succesfully at payroll page for June-2020
+continue for next month button is clicked succesfully for June-2020
+class code hours are entered at payroll page
+I agree that the Payroll I am submitting is for Roger Federer with the FEIN Hercules-FE-1.
+mark as confirmed button is cliked succesfully at payroll page for Jul-2020
+continue for next month button is clicked succesfully for Jul-2020
+class code hours are entered at payroll page
+I agree that the Payroll I am submitting is for Roger Federer with the FEIN Hercules-FE-1.
+mark as confirmed button is cliked succesfully at payroll page for Aug-2020
+continue for next month button is clicked succesfully for Aug-2020
+class code hours are entered at payroll page
+I agree that the Payroll I am submitting is for Roger Federer with the FEIN Hercules-FE-1.
+mark as confirmed button is cliked succesfully at payroll page for Sep-2020
+continue for next month button is clicked succesfully for Sep-2020
+class code hours are entered at payroll page
+I agree that the Payroll I am submitting is for Roger Federer with the FEIN Hercules-FE-1.
+mark as confirmed button is cliked succesfully at payroll page for Oct-2020
+Final button is clicked for the last payroll month Oct-2020
+save and close button  is clicked succesfully for Oct-2020
+[CDwindow-1C769852AEA823040A887218F94247E4]
+switched to contractor panel after adding payroll toi checkn the status
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-96B25C3DD4950835BAF62861933E1D9A]
+Enrolled
+Contractor
+Roger Federer | Hercules Contac
+Contractor Value
+$100,000.00
+Program
+Hercules PG
+Project
+Hercules PJ
+Enrollment Type
+WC & GL Enrollment
+Trade
+2085 | TradeDynamic-
+Enrolled Pending Certificate::: Enrolled
+[CDwindow-1C769852AEA823040A887218F94247E4]
+switched to contractor panel after adding payroll toi checkn the status
+It is the status after adding payrollto  a contractor package and the status is Enrolled Pending Certificates
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-287DCDD7CB85C5E7D84098790244DBE7]
+Enrollment Form - Wrap-PortalIt is the tile at Insurance Enrollment page
+pending review button is clicked succesfully at Insurance enerollemnt page
+Alert is not presnet but element is available to inspect and click
+Alert is not presnet but element is available to inspect and click
+Alert is not presnet but element is available to inspect and click
+No such window to click on it
+[CDwindow-1C769852AEA823040A887218F94247E4]
+Swictehd to parent after marking the insurance enrollment as pending review
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-808E8ADF3A2160D0BFDB81A390FF2D3C]
+Not Enrolled | Pending Review
+Contractor
+Roger Federer | Hercules Contac
+Contractor Value
+$100,000.00
+Program
+Hercules PG
+Project
+Hercules PJ
+Enrollment Type
+WC & GL Enrollment
+Trade
+2085 | TradeDynamic-::: Enrolled at view add payroll page
+[CDwindow-1C769852AEA823040A887218F94247E4]
+Swictehd to parent after marking the insurance enrollment as pending review
+Pending review button is clicked suiccesfully at enrollment and validate the text at contractor packages panel
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-ADEC108D9B08FE9D33638DF3BFBB48B3]
+Non-CIP Compliance - Wrap-PortalIt is the title at Non CIP page for Expire offsite coverage status 
+Mark as confirmed button at Non cip compliance page for Expired offisite coverage status
+Non cip save and close and close button is clicked at Epired offisite coverage
+[CDwindow-1C769852AEA823040A887218F94247E4]
+sccroll to the top
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-EC21F5C08AEC97864B96F2A99C58CB09]
+sccroll to the End
+Alert is not presnet but element is available to inspect and click
+alert and Element both are not displayed to clicked so moved to further
+Alert is not presnet but element is available to inspect and click
+no alert is presne to click 
+[CDwindow-1C769852AEA823040A887218F94247E4]
+sccroll to the top
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-878CEB26EEB389333054DE65B1DFA67A]
+sccroll to the top
+Enrolled
+Contractor
+Roger Federer | Hercules Contac
+Contractor Value
+$100,000.00
+Program
+Hercules PG
+Project
+Hercules PJ
+Enrollment Type
+WC & GL Enrollment
+Trade
+2085 | TradeDynamic-
+Expired Offsite CertificateIt is the enrollmentnstatus at Expired offisite coverage
+sccroll to the End
+[CDwindow-1C769852AEA823040A887218F94247E4]
+Roger Federer
+Hercules PJ
+WC & GL Enrollment
+Expired Offsite Coverage
+Hercules PG
+2085 | TradeDynamic-status at contractor packages level for Expired offiste coverage status
+It is the not the status at Expired offisite coverage method and the status is Expired Offsite Coverage
+we are at Expire offisite coverage page method 
+[CDwindow-1C769852AEA823040A887218F94247E4, CDwindow-E4C524B89BF4241EB63CC57BB72BC0F6]
+Non-CIP Compliance - Wrap-PortalIt is the title at Non CIP page for Expire offsite coverage status 
+Mark as confirmed button at Non cip compliance page for Expired offisite coverage status
+Non cip save and close and close button is clicked at Epired offisite coverage
+[CDwindow-1C769852AEA823040A887218F94247E4]
+sccroll to the top
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='dropdown-toggle avatar']"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'USER-PC', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64428}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a0abd187edba15b807ab25b746b63499
+*** Element info: {Using=xpath, value=//a[@class='dropdown-toggle avatar']}
+log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+PASSED: ContractorPkgCreation
+PASSED: AdvanceSearch_CP
+PASSED: AssignedStatus
+PASSED: Incompletepaperwork_status
+PASSED: EnrolledMissingpayoll_Stataus
+PASSED: EnrolledPendingcertificate
+PASSED: PendingReviewStatus
+PASSED: ExpireOffsiteCoverageStatus
+FAILED: ExpiringOffsiteCoverageStatus
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='aTrackingComplianceLimit']"}
+  (Session info: chrome=86.0.4240.183)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'USER-PC', ip: '192.168.1.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.183, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64428}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a0abd187edba15b807ab25b746b63499
+*** Element info: {Using=xpath, value=//a[@id='aTrackingComplianceLimit']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at PageObjects.ContractorPkgStatusValidation_page.NonCIP_frameLink(ContractorPkgStatusValidation_page.java:726)
+	at Contractor_Packg_Status_Validation_TestDUMMY.Contractor_Pkg_StatusTest_DUMMY.ExpiringOffsiteCoverageStatus(Contractor_Pkg_StatusTest_DUMMY.java:1434)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+
+===============================================
+    Default test
+    Tests run: 9, Failures: 1, Skips: 0
+===============================================
+
+Nov 11, 2020 2:01:46 PM com.relevantcodes.extentreports.Report flush
+SEVERE: Stream closed
+java.io.IOException: Unable to write source: Stream closed.
+	at com.relevantcodes.extentreports.Report.flush(Report.java:441)
+	at com.relevantcodes.extentreports.ExtentReports.flush(ExtentReports.java:691)
+	at BaseclassPackage.Baseclass.reportEnd(Baseclass.java:199)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:369)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+Nov 11, 2020 2:01:46 PM com.relevantcodes.extentreports.Report flush
+SEVERE: Stream closed
+java.io.IOException: Unable to write source: Stream closed.
+	at com.relevantcodes.extentreports.Report.flush(Report.java:441)
+	at com.relevantcodes.extentreports.ExtentReports.flush(ExtentReports.java:691)
+	at com.relevantcodes.extentreports.Report.terminate(Report.java:426)
+	at com.relevantcodes.extentreports.ExtentReports.close(ExtentReports.java:708)
+	at BaseclassPackage.Baseclass.reportEnd(Baseclass.java:200)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:369)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+
+===============================================
+Default suite
+Total tests run: 9, Passes: 8, Failures: 1, Skips: 0
+===============================================
+

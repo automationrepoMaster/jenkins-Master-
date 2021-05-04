@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<test name="Wrap Portal">
+	<parameter name="browserName" value="chrome" />
+		<classes>
+       <class name="TestScript.AddDivisonTC"/> 
+        <class name="TestScript.AddSponsorTC"/>
+        <class name="TestScript.AddContractorTC"/>
+         <class name="TestScript.AddTaskTC"/>
+        
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="5">
+
+	<test name="OLD_CP_TestCases">
+		<parameter name="browserName" value="chrome" />
+
+		<classes>
+		
+			
+		<!-- 	<class name="TestScipts_CPO.CPO_EnrollContPkg_TC" /> 
+			<class name="TestScipts_CPO.CPO_Add_ChangeOrder_Test" />	
+			<class name="TestScipts_CPO.CPO_Add_Closeout_Test" />   
+			<class name="TestScipts_CPO.CPO_Add_MonthlyPayroll_Test" />	   
+			 -->
+			
+			
+			
+			<!--  <class name="TestScipts_CPO.CPO_Add_Claim_Test" /> --><!-- Removed -->
+			
+		  
+		   
+			
+			<!-- OCP Reports -->
+			
+			
+		
+		   <!-- class name="TestScipts_CPO.Report_CPO_ActualPayroll_ReceiptsReport_TC" />   Removed-->
+		    
+		    
+		     
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    <class name="TestScipts_CPO.ReportCPO_ContractorInsuranceCostTracking_TC" />
+		    <class name="TestScipts_CPO.ReportCPO_ContractorDeductTracking_TC" />
+		    <class name="TestScipts_CPO.Report_CPO_NonComplianceReport_TC" />
+		    <class name="TestScipts_CPO.Report_CPO_FinalDeduct_TC" />
+			<class name="TestScipts_CPO.Report_CPO_InitialDeduct_TC" />
+			<class name="TestScipts_CPO.Report_CPO_EnrolledContractorsList_TC" />
+			<class name="TestScipts_CPO.Report_CPO_EnrollmentSummary_TC" /> 
+			<class name="TestScipts_CPO.Report_CPO_EnrolledContractorsList_TC" />
+			 <class name="TestScipts_CPO.Report_CPO_ContractureStructureReport_TC" />
+			<class name="TestScipts_CPO.ReportCPO_ContractorDeductTracking_TC" />
+		    <class name="TestScipts_CPO.Report_CPO_ContractorProfile_TC" /> 
+		   <class name="TestScipts_CPO.Report_CPO_ContractorStatus_TC" /> 
+			<class name="TestScipts_CPO.Report_CPO_ContractureStructureReport_TC" />                    
+			<class name="TestScipts_CPO.Report_CPO_EnrollmentTrakingReport_TC" />
+			<class name="TestScipts_CPO.Report_CPO_NonComplianceReport_TC" />
+			<class name="TestScipts_CPO.ReportCPO_ContractorDeductTracking_TC" />
+			<class name="TestScipts_CPO.Report_CPO_MissingPayroll_TC" /> 
+			 <class name="TestScipts_CPO.CPO_Add_Closeout_Test" /> 
+            <class name="TestScipts_CPO.Report_CPO_ContractureStructureReport_TC" />
+			
+			
+			 
+		</classes>
+
+	</test>
+
+</suite>

@@ -1,0 +1,5 @@
+WinWaitActive("Open","",10)
+ControlFocus("Open","","Edit1")
+Sleep(2000)
+ControlSetText("Open","","Edit1","C:\Users\NTC_Brijesh\Documents\Test Auto It.txt")
+ControlClick("Open","","Button1")
