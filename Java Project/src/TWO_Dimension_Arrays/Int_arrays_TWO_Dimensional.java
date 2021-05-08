@@ -38,7 +38,7 @@ public class Int_arrays_TWO_Dimensional {
 				
 				System.out.print(j + "\s" +  "Advacned for loop"  + "\n");
 			}
-			System.out.println( );
+			System.out.println( ); // This is to give some space
 			
 		}
 		
